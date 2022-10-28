@@ -1,0 +1,29 @@
+.header {
+    background-image: url(../../archivos/fotos/fondomain.jpeg);
+    border-bottom: 3px solid;
+    position: fixed;
+    -webkit-box-shadow: 16px 12px 38px 9px rgba(0, 0, 0, 1);
+-moz-box-shadow: 16px 12px 38px 9px rgba(0, 0, 0, 1);
+box-shadow: 16px 12px 38px 9px rgba(0, 0, 0, 1);
+z-index: 9999;
+}
+
+.navBar {
+    background-image: url(../../archivos/fotos/fondomain.jpeg);
+  
+    li {
+      display: flex;
+      list-style: none;
+      font-family: 'Dangrek', cursive;
+  
+      a {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+      }
+    }
+  }
+
+.logo {
+    display: flex;
+    height: 130px;
+    width: 130px;}

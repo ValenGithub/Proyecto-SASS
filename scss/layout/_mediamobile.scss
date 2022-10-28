@@ -1,0 +1,40 @@
+@media (max-width: 576px) { 
+    /*header*/
+    
+        
+    .navBar li a {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+    }
+    
+    .logo {
+        display: flex;
+        height: 85px;
+        width: 100px;
+        
+        
+    }
+    
+    .container {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .carousel {
+        width: 350px;
+        height: 250px;
+        
+    }
+    
+
+    .carousel-item img  {
+        
+        width: 350px ;
+        height: 250px;
+    }
+    /*GOMERIA*/
+ 
+}

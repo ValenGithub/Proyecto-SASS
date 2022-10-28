@@ -1,0 +1,58 @@
+body {
+    width: 100%;
+}
+.agente{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .agente h2 {
+    padding-top: 250px;
+    }
+    .agente img {
+        padding-top: 250px;
+    }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardcarousel {
+    padding: 100px;
+    gap: 80px;
+}
+.carousel {
+    
+    height: 450px;
+    width: 750px;
+    gap: 50px;
+}
+.carousel-item img {
+    height: 450px;
+    width: 750px;
+    border: 5px solid black;
+    border-radius: 15px;
+}
+.carousel-inner {
+    height: 450px;
+    width: 750px;
+    
+}
+
+.container h2 {
+    font-family: 'Dangrek', cursive;
+    color: black    ;
+}
+.caracteristicas {
+    font-family: 'Dangrek', cursive;
+    color: black;
+    ul li {
+        padding: 25px;
+    }
+}
+
+.main-cg {
+    background-image: url();
+}

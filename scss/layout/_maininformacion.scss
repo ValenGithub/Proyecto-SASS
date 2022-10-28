@@ -1,0 +1,69 @@
+.section-servg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./archivos/fotos/dunlop-roadsmart4-detail-4-2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 645px;
+    width: 100%;
+    border: 5px solid black;
+    gap: 120px;
+}
+
+.section-servg h2 {
+    font-family: 'Dangrek', cursive;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+}
+
+.section-servg ul {
+    list-style: none;
+    font-family: 'Dangrek', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.section-servc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./archivos/fotos/fondoconcesionaria.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 645px;
+    width: 100%;
+    border: 5px solid black;
+    gap: 120px;
+}
+
+.section-servc h2 {
+    font-family: 'Dangrek', cursive;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+}
+
+.section-servc ul {
+    list-style: none;
+    font-family: 'Dangrek', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}

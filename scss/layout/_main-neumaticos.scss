@@ -1,0 +1,36 @@
+
+
+    
+    .logo-dunlop {
+        height: 250px;
+        width: 300px;
+        padding-top: 150px;
+    }
+    
+    .distribuidor {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        font-family: 'Dangrek', cursive;
+        font-size: 16px;
+        padding-top: 150px;
+        padding-bottom: 95px;
+    }
+    
+    
+    
+    .boton-g {
+        margin-right: 75px;
+    }
+    .main-cg {
+        background-image: url(../../archivos/fotos/fondometalico.webp);
+    }
+
+    .card-gomasgeneral {
+        flex-direction: column;
+        padding: 100px;
+        gap: 50px
+        ;
+    }
