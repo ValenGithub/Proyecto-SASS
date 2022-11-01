@@ -1,3 +1,8 @@
+.maininicio{
+  width: 100%;
+  padding-top: 150px;
+}
+
 .sectiongomeria-i {
     display: flex;
     justify-content: center;
@@ -7,7 +12,7 @@
     background-size: cover;
     height: 645px;
     width: 100%;
-    border: 5px solid black;
+  
   }
   
   .sectiongomeria-a {
@@ -25,9 +30,11 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 645px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-top:5px solid black;
   }
   
   .sectionconsecionaria-a {
