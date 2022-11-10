@@ -4,7 +4,7 @@
   box-sizing: border-box; }
 
 .header {
-  background-image: url(../../archivos/fotos/fondomain.jpeg);
+  background-image: url(../archivos/fotos/fondomain.jpeg);
   border-bottom: 3px solid;
   position: fixed;
   -webkit-box-shadow: 16px 12px 38px 9px black;
@@ -13,7 +13,7 @@
   z-index: 9999; }
 
 .navBar {
-  background-image: url(../../archivos/fotos/fondomain.jpeg); }
+  background-image: url(../archivos/fotos/fondomain.jpeg); }
   .navBar li {
     display: flex;
     list-style: none;
@@ -70,7 +70,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(../../archivos/fotos/dunlop-roadsmart4-detail-4-2.webp);
+  background-image: url(../archivos/fotos/dunlop-roadsmart4-detail-4-2.webp);
   background-repeat: no-repeat;
   background-size: cover;
   height: 645px;
@@ -87,7 +87,7 @@
   -webkit-text-stroke: 2px black; }
 
 .sectionconsecionaria-i {
-  background-image: url(../../archivos/fotos/fondoconcesionaria.jpg);
+  background-image: url(../archivos/fotos/fondoconcesionaria.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 645px;
@@ -155,7 +155,7 @@ body {
     padding: 25px; }
 
 .main-cg {
-  background-image: url(../../archivos/VALENTINO/NUEVASBAJA/FONDO.jpg);
+  background-image: url(../archivos/valentino/nuevasbaja/fondometaliko.jpg);
   width: 100%; }
 
 .logo-dunlop {
@@ -177,7 +177,7 @@ body {
   margin-right: 75px; }
 
 .main-cg {
-  background-image: url(../../archivos/VALENTINO/NUEVASBAJA/FONDO.jpg); }
+  background-image: url(../archivos/VALENTINO/NUEVASBAJA/FONDO.jpg); }
 
 .card-gomasgeneral {
   flex-direction: column;
@@ -188,7 +188,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(../../archivos/fotos/dunlop-roadsmart4-detail-4-2.webp);
+  background-image: url(../archivos/fotos/dunlop-roadsmart4-detail-4-2.webp);
   background-repeat: no-repeat;
   background-size: cover;
   height: 645px;
@@ -220,7 +220,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(../../archivos/fotos/fondoconcesionaria.jpg);
+  background-image: url(../archivos/fotos/fondoconcesionaria.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 645px;
