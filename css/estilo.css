@@ -129,6 +129,10 @@ body {
     -webkit-text-fill-color: white;
     font-size: 60px; }
 
+.titulo-autos h2 {
+  font-family: 'Dangrek', cursive;
+  color: #c6c4c4; }
+
 .carousel {
   height: 450px;
   width: 750px;
@@ -144,18 +148,14 @@ body {
   height: 450px;
   width: 750px; }
 
-.container h2 {
-  font-family: 'Dangrek', cursive;
-  color: black; }
-
 .caracteristicas {
   font-family: 'Dangrek', cursive;
-  color: black; }
+  color: #c6c4c4; }
   .caracteristicas ul li {
     padding: 25px; }
 
 .main-cg {
-  background-image: url(../../archivos/valentino/nuevasbaja/fondometaliko.jpg);
+  background-image: url(../archivos/valentino/nuevasbaja/fondometaliko.jpg);
   width: 100%; }
 
 .logo-dunlop {
@@ -175,9 +175,6 @@ body {
 
 .boton-g {
   margin-right: 75px; }
-
-.main-cg {
-  background-image: url(../archivos/VALENTINO/NUEVASBAJA/FONDO.jpg); }
 
 .card-gomasgeneral {
   flex-direction: column;

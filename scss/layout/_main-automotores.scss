@@ -25,7 +25,11 @@ body {
         font-size: 60px;
     }
 }
+.titulo-autos h2 {
+    font-family: 'Dangrek', cursive;
+    color: rgb(198, 196, 196);
 
+}
 .carousel {
     
     height: 450px;
@@ -44,13 +48,10 @@ body {
     
 }
 
-.container h2 {
-    font-family: 'Dangrek', cursive;
-    color: black    ;
-}
+
 .caracteristicas {
     font-family: 'Dangrek', cursive;
-    color: black;
+    color: rgb(198, 196, 196);
     ul li {
         padding: 25px;
     }
