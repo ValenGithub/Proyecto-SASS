@@ -83,7 +83,8 @@
   align-items: center;
   text-decoration: none;
   color: white;
-  font-size: 50px; }
+  font-size: 50px;
+  -webkit-text-stroke: 2px black; }
 
 .sectionconsecionaria-i {
   background-image: url(../../archivos/fotos/fondoconcesionaria.jpg);
@@ -93,7 +94,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   border-top: 5px solid black; }
 
 .sectionconsecionaria-a {
@@ -103,7 +104,8 @@
   align-items: center;
   text-decoration: none;
   color: white;
-  font-size: 50px; }
+  font-size: 50px;
+  -webkit-text-stroke: 2px black; }
 
 body {
   width: 100%; }
@@ -119,14 +121,13 @@ body {
 .agente img {
   padding-top: 250px; }
 
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
 .cardcarousel {
   padding: 100px;
   gap: 80px; }
+  .cardcarousel h2 {
+    -webkit-text-stroke: 3px black;
+    -webkit-text-fill-color: white;
+    font-size: 60px; }
 
 .carousel {
   height: 450px;
@@ -154,7 +155,8 @@ body {
     padding: 25px; }
 
 .main-cg {
-  background-image: url(); }
+  background-image: url(../../archivos/VALENTINO/NUEVASBAJA/FONDO.jpg);
+  width: 100%; }
 
 .logo-dunlop {
   height: 250px;
@@ -175,7 +177,7 @@ body {
   margin-right: 75px; }
 
 .main-cg {
-  background-image: url(../../archivos/fotos/fondometalico.webp); }
+  background-image: url(../../archivos/VALENTINO/NUEVASBAJA/FONDO.jpg); }
 
 .card-gomasgeneral {
   flex-direction: column;
@@ -248,7 +250,22 @@ body {
 
 .mainContacto {
   padding-top: 180px;
-  height: 100vh; }
+  height: 120vh; }
+
+.iframeMap {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.card-completa {
+  -webkit-box-shadow: 16px 12px 38px 9px black;
+  -moz-box-shadow: 16px 12px 38px 9px black;
+  box-shadow: 16px 12px 38px 9px black; }
+
+.card-completa2 {
+  background-color: #d1b40f;
+  border: solid 4px black;
+  border-radius: 5px; }
 
 @media (max-width: 768px) {
   .carousel {
@@ -261,6 +278,8 @@ body {
     display: flex; } }
 
 @media (max-width: 576px) {
+  body {
+    width: 100%; }
   /*header*/
   .navBar li a {
     color: black;
@@ -269,12 +288,6 @@ body {
     display: flex;
     height: 85px;
     width: 100px; }
-  .container {
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; }
   .carousel {
     width: 350px;
     height: 250px; }

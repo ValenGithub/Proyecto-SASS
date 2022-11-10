@@ -1,4 +1,9 @@
 @media (max-width: 576px) { 
+    body {
+        width: 100%;
+    }
+    
+    
     /*header*/
     
         
@@ -15,14 +20,6 @@
         
     }
     
-    .container {
-        padding: 10px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-    }
     .carousel {
         width: 350px;
         height: 250px;
