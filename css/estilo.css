@@ -135,24 +135,26 @@ body {
 
 .carousel {
   height: 450px;
-  width: 750px;
+  width: 550px;
   gap: 50px; }
 
 .carousel-item img {
   height: 450px;
-  width: 750px;
+  width: 550px;
   border: 5px solid black;
   border-radius: 15px; }
 
 .carousel-inner {
   height: 450px;
-  width: 750px; }
+  width: 650px; }
 
 .caracteristicas {
   font-family: 'Dangrek', cursive;
-  color: #c6c4c4; }
+  color: #c6c4c4;
+  margin-right: 15px; }
   .caracteristicas ul li {
-    padding: 25px; }
+    padding: px;
+    list-style: none; }
 
 .main-cg {
   background-image: url(../archivos/valentino/nuevasbaja/fondometaliko.jpg);
@@ -266,10 +268,10 @@ body {
 
 @media (max-width: 768px) {
   .carousel {
-    width: 500px;
+    width: 380px;
     height: 280px; }
   .carousel-item img {
-    width: 500px;
+    width: 380px;
     height: 280px; }
   .navBar {
     display: flex; } }
@@ -286,9 +288,9 @@ body {
     height: 85px;
     width: 100px; }
   .carousel {
-    width: 350px;
+    width: 320px;
     height: 250px; }
   .carousel-item img {
-    width: 350px;
+    width: 320px;
     height: 250px; }
   /*GOMERIA*/ }
