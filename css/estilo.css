@@ -3,6 +3,9 @@
   margin: 0;
   box-sizing: border-box; }
 
+body {
+  padding: 0; }
+
 .header {
   background-image: url(../archivos/fotos/fondomain.jpeg);
   border-bottom: 3px solid;
@@ -123,13 +126,10 @@ body {
 .agente img {
   padding-top: 250px; }
 
-.cardcarousel {
-  padding: 100px;
-  gap: 80px; }
-  .cardcarousel h2 {
-    -webkit-text-stroke: 3px black;
-    -webkit-text-fill-color: white;
-    font-size: 60px; }
+.cardcarousel h2 {
+  -webkit-text-stroke: 3px black;
+  -webkit-text-fill-color: white;
+  font-size: 60px; }
 
 .titulo-autos h2 {
   font-family: 'Dangrek', cursive;
@@ -155,7 +155,6 @@ body {
   color: #c6c4c4;
   margin-right: 15px; }
   .caracteristicas ul li {
-    padding: px;
     list-style: none; }
 
 .main-cg {
