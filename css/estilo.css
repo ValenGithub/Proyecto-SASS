@@ -126,14 +126,17 @@ body {
 .agente img {
   padding-top: 250px; }
 
-.cardcarousel h2 {
-  -webkit-text-stroke: 3px black;
-  -webkit-text-fill-color: white;
-  font-size: 60px; }
+.cardcarousel {
+  max-width: 550px; }
+  .cardcarousel h2 {
+    -webkit-text-stroke: 3px black;
+    -webkit-text-fill-color: white;
+    font-size: 60px; }
 
 .titulo-autos h2 {
   font-family: 'Dangrek', cursive;
-  color: #c6c4c4; }
+  color: #c6c4c4;
+  padding-top: 100px; }
 
 .carousel {
   height: 450px;
@@ -151,11 +154,20 @@ body {
   width: 650px; }
 
 .caracteristicas {
+  display: flex;
+  flex-direction: column;
+  padding-right: 100px;
   font-family: 'Dangrek', cursive;
   color: #c6c4c4;
   margin-right: 15px; }
+  .caracteristicas ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
   .caracteristicas ul li {
-    list-style: none; }
+    list-style: none;
+    padding: 0; }
 
 .main-cg {
   background-image: url(../archivos/valentino/nuevasbaja/fondometaliko.jpg);
@@ -281,7 +293,9 @@ body {
   .navBar {
     display: flex; }
   .maininicio {
-    padding-top: 76px; } }
+    padding-top: 76px; }
+  .caracteristicas {
+    padding-right: 0px; } }
 
 @media (max-width: 576px) {
   body {
@@ -295,9 +309,9 @@ body {
     height: 85px;
     width: 100px; }
   .carousel {
-    width: 300px;
+    width: 275px;
     height: 220px; }
   .carousel-item img {
-    width: 300px;
+    width: 275px;
     height: 220px; }
   /*GOMERIA*/ }

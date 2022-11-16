@@ -17,7 +17,7 @@ body {
 
 .cardcarousel {
     
-
+max-width: 550px;
     h2 {
         -webkit-text-stroke: 3px rgb(0, 0, 0);
         -webkit-text-fill-color: rgb(255, 255, 255);
@@ -27,7 +27,7 @@ body {
 .titulo-autos h2 {
     font-family: 'Dangrek', cursive;
     color: rgb(198, 196, 196);
-
+    padding-top: 100px;
 }
 .carousel {
     
@@ -49,16 +49,25 @@ body {
 
 
 .caracteristicas {
+    display: flex;
+    flex-direction: column;
+    padding-right: 100px;
     font-family: 'Dangrek', cursive;
     color: rgb(198, 196, 196);
     margin-right: 15px;
+    ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     ul li {
         list-style: none;
+        padding: 0;
     }
 }
 
 .main-cg {
-    background-image: url(../archivos/valentino/nuevasbaja/fondometaliko.jpg);
-    width: 100%;
+    background-image: url(../../archivos/valentino/nuevasbaja/fondometaliko.jpg);
+    width: 100%
 }
-
